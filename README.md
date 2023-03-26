@@ -1,2 +1,3 @@
 # Weather-Simulation-Database
 A GUI enabled Python Program using Tkinter and mysql connector to insert, delete, modify and display records from a local mysql database.
+The Weather Simulation Database is the Database of a Company that Launches specialized satellites into orbit that are able to manipulate the climatic conditions of a desired location. The Company is based sometime in the imaginary future wherein climates around the globe have gone haywire due to global warming. Thus, the weather needs to be artificially simulated. The database contains the data of the ongoing missions of the company to launch, repair or dismantle satellites.
