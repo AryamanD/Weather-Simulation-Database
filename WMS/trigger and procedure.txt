@@ -1,0 +1,14 @@
+DELIMITER &&  
+CREATE PROCEDURE record_count ()  
+BEGIN    
+    SELECT COUNT(m_id) AS Number_of_Records FROM missions;    
+END &&  
+DELIMITER ; 
+
+DELIMITER //  
+Create Trigger rupees_to_pounds   
+BEFORE INSERT ON missions FOR EACH ROW  
+BEGIN  
+IF NEW.cost > 0 THEN SET NEW.cost = NEW.cost/100;  
+END IF;  
+END //  
