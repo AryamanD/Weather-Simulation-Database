@@ -1,0 +1,23 @@
+Software Requirements
+- any Python IDE (preferably VS Code)
+- mySQL Link - https://dev.mysql.com/downloads/installer/
+
+Database Download Instructions
+- The Directory "project DB" in this repository contains the database tables.
+- Download the Folder anywhere onto your local file system (preferably Documents).
+- Now, open the MySQL command prompt and CREATE database project and exit.
+- Press Win + S and search for MySQL Workbench. Open it and select your local instance(root).
+- On the left most panel locate Data Import/restore under Management header. Click on it.
+- Under Import Options Browse the location of folder "projectDB" where you had previously downloaded it by clicking on the three dots. 
+- Select it and then select the "Import progress" tab above.
+- Click on "start import".
+- The database should now be successfully downloaded.
+- You can validate the same by accessing "project" database in the MySQL command prompt.
+
+Python Program Instructions
+- Download the "WMS" Directory directly into your C drive(obligatory) such that the path should be "C:\WMS".
+- Now, go to VScode and open folder WMS.
+- Open WMS.py through VScode and make a small modification as follows
+- press ctrl + f, and type "mysequel" and press enter. right click on any occurence and in the drop down menu select change all occurences.
+- Then type the password of your MySQL local instance.
+- That's it! You can now run the project!
