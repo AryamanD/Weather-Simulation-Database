@@ -15,7 +15,7 @@ Database Download Instructions
 - You can validate the same by accessing "project" database in the MySQL command prompt.
 
 Python Program Instructions
-- Download the "WMS" Directory directly into your C drive(obligatory) such that the path should be "C:\WMS".
+- Download the "WMS" Directory.
 - Now, go to VScode and open folder WMS.
 - Open WMS.py through VScode and make a small modification as follows
 - press ctrl + f, and type "mysequel" and press enter. right click on any occurence and in the drop down menu select change all occurences.
